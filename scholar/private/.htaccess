@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Private Scholarship"
+AuthUserFile "/home/mgwynm/.htpasswds/public_html/scholar/private/passwd"
+require valid-user

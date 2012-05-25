@@ -1,32 +1,37 @@
-sites/default/files
-sites/default/private
-sites/default/settings.php
-cache/
-files/
-/README.txt
-/CHANGELOG.txt
-/COPYRIGHT.txt
-/INSTALL*.txt
-/LICENSE.txt
-/MAINTAINERS.txt
-/UPGRADE.txt
-robots.txt
-sites/all/README.txt
-sites/all/modules/README.txt
-sites/all/themes/README.txt
-.htaccess
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-#for non core developer
-#only include "sites" folder without exclusions before
-cron.php
-index.php
-install.php
-update.php
-xmlrpc.php
-/includes
-/misc
-/modules     
-/profiles
-/scripts
-/themes
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Site specific #
+######################
+cgi-bin/
+*cgi-bin/
+drupal/
+.ftpquota
+unzip.php
+tmp
+StNina.jpg

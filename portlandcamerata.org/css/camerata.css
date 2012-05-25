@@ -1,0 +1,103 @@
+/* #902828 */
+* {margin: 0; padding: 0;}
+body {font: 0.8125em Trebuchet, Geneva, Arial, Helvetica, sans-serif; line-height: 1em; color: #ffffcc; margin: 10px 10%; background: #902828;}
+a {text-decoration: none;}
+a img {border: none;}
+a, a:link, a:visited {color:#ff9933;}
+html body a:hover {color: #FFCC00;}
+p {line-height: 1.4em; margin: 0 0 1em;}
+h1 {font: 3.5em "Garamond", Georgia, "Times New Roman", Times, serif; letter-spacing: 1px; color:#ffffcc;}
+h2 {font: 3.5em "Garamond", Georgia, "Times New Roman", Times, serif; line-height: normal; letter-spacing: 1px; color: #ffffcc; text-align: center; font-style: italic;}
+h3 {font: bold 1.6em "Garamond", Georgia, "Times New Roman", Times, serif; line-height: normal; text-align: center; font-style: italic; width: 60%; margin: 1em auto;}
+h4 {font: bold 1.1em "Garamond", Georgia, "Times New Roman", serif; letter-spacing: 1px;}
+ul, ol {list-style: none;}
+li {line-height: 1.2em;}
+blockquote, pre {padding: 0.25em 40px;}
+blockquote {font: italic 1.05em "Garamond", Georgia, Times, serif;
+  margin: 0.25em 0;}
+#page {float:left; width: 470px; position: relative; padding: 126px 0 1em 130px; background: #902828 url(../images/scroll.jpg) no-repeat;}
+#header {position:relative; background: yellow;}
+a#logo {float:left; background:url(../images/logo.jpg) no-repeat; display:block; height: 100px; width: 440px;}
+#loc {float:right;}
+.column {float: left;}
+/* Start of Column CSS */
+#container{
+  width:100%;
+}
+#content{
+	color: #ffc;
+	padding: 1em 1em 1.2em;
+	min-height: 400px;
+}
+#content p {font-size: 1em;}
+#content ul {list-style: disc; padding: 0 1em;}
+#content li {margin: .5em 0;}
+.class {margin: 1em auto;}
+/*
+#content a, #content a:visited {color:#fff; border-bottom: 1px dotted #fff; background-color:#66f;}
+#content a:hover {color:#fff; border-bottom: 1px dotted #ff9933; background-color:#66f;}
+*/
+#content.event {background: url(../images/bird-50.jpg) no-repeat center bottom; padding-bottom: 60px;}
+#contact {}
+#sidebar {
+  background-color: #fff;
+  width:10em;
+  float:left;
+	padding: 1em;
+}
+#sidebar li {padding: 0.25em 0 0.25em;}
+#sidebar p {font-size: 0.85em; margin-top: 0.25em;}
+#menu {font-size: 1.4em; font-family: "Garamond", Georgia, "Times New Roman", Times, serif; font-weight:bold; line-height: 1.6em;}
+#menu a, #menu a:link, #menu a:hover {color: #6666ff; padding-right: 5px; border-right: 3px solid #fff;}
+#menu a:hover {border-right: 3px solid #ff9933; border-bottom:0;}
+
+#footer {clear: both; margin: 2em 0; font-size: 0.85em; width: 100%;}
+#footer p {padding: 1em 0;}
+#footer p.right {margin-right: .5em;}
+.right {float:right;}
+.left {float: left;}
+.span {}
+#versions {clear:both;}
+
+/* Form Settings */
+form.ddfm input.fmfile,
+form.ddfm input.fmtext, form.ddfm textarea.fmtextwide, form.ddfm input.fmverify {background: #ffc; color:#f93;}
+form.ddfm .fmcheck p, 
+form.ddfm .fmradio p,
+form.ddfm textarea, 
+form.ddfm .fmfullblock, 
+form.ddfm .fmhalfblock, 
+form.ddfm .fmselect, 
+form.ddfm input.fmtext,
+form.ddfm input.fmdate,
+form.ddfm input.fmverify,
+form.ddfm textarea.fmtextwide,
+form.ddfm .submit,
+form.ddfm .credits {
+	color: #f93; font-weight:bold;
+}
+
+/* IE5.x/Win hacks */
+
+/*
+#main {width: 960px; voice-family: "\"}\""; voice-family: inherit; width: 750px;}
+#content {width: 585px; voice-family: "\"}\""; voice-family: inherit; width: 540px;}
+#sidebar {width: 155px; voice-family: "\"}\""; voice-family: inherit; width: 140px;}
+
+/* IE5/Mac hacks */
+/*\*//*/
+#navbar {padding-top: 0.75em; height: 1.66em;}
+#navbar li a {display: inline;}
+/**/
+
+/* #masthead, #navbar, #sidebar, #metastuff b, #metastuff .discuss, div.discuss {
+  display: none !important;
+}
+body, #main, #content, .column, #articletext, #footer {
+  float: none !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+*/
+

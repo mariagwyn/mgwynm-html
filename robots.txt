@@ -1,0 +1,287 @@
+# $Id: robots.txt,v 1.9 2007/06/27 22:37:44 goba Exp $
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/wc/robots.html
+#
+# For syntax checking, see:
+# http://www.sxw.org.uk/computing/robots/check.html
+
+User-agent: Google
+Disallow:
+#####################  End Wikipedia .txt  
+#
+# robots.txt for http://www.wikipedia.org/ and friends
+#
+# Please note: There are a lot of pages on this site, and there are
+# some misbehaved spiders out there that go _way_ too fast. If you're
+# irresponsible, your access to the site may be blocked.
+#
+
+# advertising-related bots:
+User-agent: Mediapartners-Google*
+Disallow: /
+
+# Wikipedia work bots:
+User-agent: IsraBot
+Disallow:
+
+User-agent: Orthogaffe
+Disallow:
+
+# Crawlers that are kind enough to obey, but which we'd rather not have
+# unless they're feeding search engines.
+User-agent: UbiCrawler
+Disallow: /
+
+User-agent: DOC
+Disallow: /
+
+User-agent: Zao
+Disallow: /
+
+# Some bots are known to be trouble, particularly those designed to copy
+# entire sites. Please obey robots.txt.
+User-agent: sitecheck.internetseer.com
+Disallow: /
+
+User-agent: Zealbot
+Disallow: /
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: SiteSnagger
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: Fetch
+Disallow: /
+
+User-agent: Offline Explorer
+Disallow: /
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: TeleportPro
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: linko
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: Microsoft.URL.Control
+Disallow: /
+
+User-agent: Xenu
+Disallow: /
+
+User-agent: larbin
+Disallow: /
+
+User-agent: libwww
+Disallow: /
+
+User-agent: ZyBORG
+Disallow: /
+
+User-agent: Download Ninja
+Disallow: /
+
+#
+# Sorry, wget in its recursive mode is a frequent problem.
+# Please read the man page and use it properly; there is a
+# --wait option you can use to set the delay between hits,
+# for instance.
+#
+User-agent: wget
+Disallow: /
+
+#
+# The 'grub' distributed client has been *very* poorly behaved.
+#
+User-agent: grub-client
+Disallow: /
+
+#
+# Doesn't follow robots.txt anyway, but...
+#
+User-agent: k2spider
+Disallow: /
+
+#
+# Hits many times per second, not acceptable
+# http://www.nameprotect.com/botinfo.html
+User-agent: NPBot
+Disallow: /
+
+# A capture bot, downloads gazillions of pages with no public benefit
+# http://www.webreaper.net/
+User-agent: WebReaper
+Disallow: /
+#####################  End Wikipedia .txt  
+# For mariagwyn.com specifically
+User-agent: *
+Disallow: /files
+Disallow: /dev
+Disallow: /random
+Disallow: /snq
+Disallow: /snq-orig
+
+# Drupal settings
+User-agent: *
+Crawl-delay: 10
+# Directories
+Disallow: /drupal/database/
+Disallow: /drupal/includes/
+Disallow: /drupal/misc/
+Disallow: /drupal/modules/
+Disallow: /drupal/sites/
+Disallow: /drupal/themes/
+Disallow: /drupal/scripts/
+Disallow: /drupal/updates/
+Disallow: /drupal/profiles/
+# Files
+Disallow: /drupal/xmlrpc.php
+Disallow: /drupal/cron.php
+Disallow: /drupal/update.php
+Disallow: /drupal/install.php
+Disallow: /drupal/INSTALL.txt
+Disallow: /drupal/INSTALL.mysql.txt
+Disallow: /drupal/INSTALL.pgsql.txt
+Disallow: /drupal/CHANGELOG.txt
+Disallow: /drupal/MAINTAINERS.txt
+Disallow: /drupal/LICENSE.txt
+Disallow: /drupal/UPGRADE.txt
+# Paths (clean URLs)
+Disallow: /drupal/admin/
+Disallow: /drupal/comment/reply/
+Disallow: /drupal/contact/
+Disallow: /drupal/logout/
+Disallow: /drupal/node/add/
+Disallow: /drupal/search/
+Disallow: /drupal/user/register/
+Disallow: /drupal/user/password/
+Disallow: /drupal/user/login/
+# Paths (no clean URLs)
+Disallow: /drupal/?q=admin/
+Disallow: /drupal/?q=comment/reply/
+Disallow: /drupal/?q=contact/
+Disallow: /drupal/?q=logout/
+Disallow: /drupal/?q=node/add/
+Disallow: /drupal/?q=search/
+Disallow: /drupal/?q=user/password/
+Disallow: /drupal/?q=user/register/
+Disallow: /drupal/?q=user/login/
+
+User-agent: *
+Crawl-delay: 10
+# Directories
+Disallow: /drupal6/database/
+Disallow: /drupal6/includes/
+Disallow: /drupal6/misc/
+Disallow: /drupal6/modules/
+Disallow: /drupal6/sites/
+Disallow: /drupal6/themes/
+Disallow: /drupal6/scripts/
+Disallow: /drupal6/updates/
+Disallow: /drupal6/profiles/
+# Files
+Disallow: /drupal6/xmlrpc.php
+Disallow: /drupal6/cron.php
+Disallow: /drupal6/update.php
+Disallow: /drupal6/install.php
+Disallow: /drupal6/INSTALL.txt
+Disallow: /drupal6/INSTALL.mysql.txt
+Disallow: /drupal6/INSTALL.pgsql.txt
+Disallow: /drupal6/CHANGELOG.txt
+Disallow: /drupal6/MAINTAINERS.txt
+Disallow: /drupal6/LICENSE.txt
+Disallow: /drupal6/UPGRADE.txt
+# Paths (clean URLs)
+Disallow: /drupal6/admin/
+Disallow: /drupal6/comment/reply/
+Disallow: /drupal6/contact/
+Disallow: /drupal6/logout/
+Disallow: /drupal6/node/add/
+Disallow: /drupal6/search/
+Disallow: /drupal6/user/register/
+Disallow: /drupal6/user/password/
+Disallow: /drupal6/user/login/
+# Paths (no clean URLs)
+Disallow: /drupal6/?q=admin/
+Disallow: /drupal6/?q=comment/reply/
+Disallow: /drupal6/?q=contact/
+Disallow: /drupal6/?q=logout/
+Disallow: /drupal6/?q=node/add/
+Disallow: /drupal6/?q=search/
+Disallow: /drupal6/?q=user/password/
+Disallow: /drupal6/?q=user/register/
+Disallow: /drupal6/?q=user/login/
+
+User-agent: *
+Crawl-delay: 10
+# Directories
+Disallow: /database/
+Disallow: /includes/
+Disallow: /misc/
+Disallow: /modules/
+Disallow: /sites/
+Disallow: /themes/
+Disallow: /scripts/
+Disallow: /updates/
+Disallow: /profiles/
+# Files
+Disallow: /xmlrpc.php
+Disallow: /cron.php
+Disallow: /update.php
+Disallow: /install.php
+Disallow: /INSTALL.txt
+Disallow: /INSTALL.mysql.txt
+Disallow: /INSTALL.pgsql.txt
+Disallow: /CHANGELOG.txt
+Disallow: /MAINTAINERS.txt
+Disallow: /LICENSE.txt
+Disallow: /UPGRADE.txt
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /contact/
+Disallow: /logout/
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+# Paths (no clean URLs)
+Disallow: /?q=admin/
+Disallow: /?q=comment/reply/
+Disallow: /?q=contact/
+Disallow: /?q=logout/
+Disallow: /?q=node/add/
+Disallow: /?q=search/
+Disallow: /?q=user/password/
+Disallow: /?q=user/register/
+Disallow: /?q=user/login/
+

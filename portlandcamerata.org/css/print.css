@@ -1,0 +1,17 @@
+html body {padding: 0 0 0.5em; margin: 1.5em 0 2em 1.5em; text-align: left;
+  background: none; position: relative;}
+
+html body pre, html body code {vertical-align: baseline;}
+
+#text a[href]:after,
+#authorbio a[href]:after,
+#footer a[href]:after {
+   content: " (" attr(href) ") ";
+   font-size: 90%;}
+
+#footer a[href^="/"]:after {
+   content: " (http://bluelinewriting.com" attr(href) ") ";}
+	
+#footer p.right {float:left;}
+#footer p {padding:.5em 0;}
+ 

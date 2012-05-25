@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Virtuous Icons: Unique Persons or Gendered Stereotypes?  Lecture presented at the Huffington Ecumenical Institute confrence, Women and Church, East and West, March 5-6, 2010."/>
+    <meta 
+    <title>Virtuous Icons: Unique Persons or Gendered Stereotypes? | Maria Gwyn McDowell</title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (12);
+            images[0] = "VirtuousIcons/Icon_and_Ethics.001.png";
+            images[1] = "VirtuousIcons/Icon_and_Ethics.002.png";
+            images[2] = "VirtuousIcons/Icon_and_Ethics.003.png";
+            images[3] = "VirtuousIcons/Icon_and_Ethics.004.png";
+            images[4] = "VirtuousIcons/Icon_and_Ethics.005.png";
+            images[5] = "VirtuousIcons/Icon_and_Ethics.006.png";
+            images[6] = "VirtuousIcons/Icon_and_Ethics.007.png";
+            images[7] = "VirtuousIcons/Icon_and_Ethics.008.png";
+            images[8] = "VirtuousIcons/Icon_and_Ethics.009.png";
+            images[9] = "VirtuousIcons/Icon_and_Ethics.010.png";
+            images[10] = "VirtuousIcons/Icon_and_Ethics.011.png";
+            images[11] = "VirtuousIcons/Icon_and_Ethics.012.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+    <link href="../lectures.css" rel="stylesheet" type="text/css" />
+</head>
+<body onload='WindowLoaded(event);'>
+<div id="content">
+<div class="column left"><h2 align="center">Virtuous Icons: Unique Persons or Gendered Stereotypes?</h2>
+<p class="small">Presented by Maria Gwyn McDowell</p>
+<p class="small"><a href="http://bellarmine.lmu.edu/ecumenical/hes2010.htm">Women and Church, East and West: a Catholic-Orthodox Conversation</a>, The Huffington Ecunemical Institute, Loyola Marymount University. March5-6, 2010</p>
+<p class="copy">&copy; 2010 Maria Gwyn McDowell - All Rights Reserved</p>
+</div>
+<div class="column middle">
+        <img src="VirtuousIcons/Icon_and_Ethics.001.png" alt="" name="Slideshow" width="720" height="540" onclick="Step(1)"/>
+<br/>
+        <br/>
+        <input type="image" src="VirtuousIcons/home.png" onclick="GoTo(0)"/>
+&nbsp;&nbsp;&nbsp;
+        <input type="image" src="VirtuousIcons/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="VirtuousIcons/next.png" onclick="Step(1)"/>
+</div>
+</div>
+</body>
+</html>

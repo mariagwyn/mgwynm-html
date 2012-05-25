@@ -1,0 +1,55 @@
+#page {
+	position:relative;
+margin: 20px auto;
+	width:723px;
+	height:614px;
+}
+
+#bg-top-164 {
+	position:relative;
+	width:723px;
+	height:154px;
+	background: url(bg-top-164.jpg) no-repeat;
+	padding: 10px 0 0;
+}
+a.logo {display: block; width:245px; height:132px; margin: 0 0 0 51px; background: url(MGM.png) no-repeat;}
+h1 {display:none;}
+#bg-top2-33 {
+	position:relative;
+	width:723px;
+	height:33px;
+	background: url(bg-top2-33.jpg) no-repeat;
+}
+
+#bg-mid-367 {
+	position:relative;
+	background: url(bg-mid-367.jpg) no-repeat;
+	width:723px;
+	height:367px;
+}
+.cols {
+	margin: 0 51px;
+	height: 33px;
+}
+.cols div {width: 200px; display:block; float: left;}
+.col1. .col3 {margin: 0;}
+.col2 {margin: 0 10px;}
+.ww-top {background: url(ww-top-33.png) no-repeat; height: 33px;}
+.sch-top {background: url(sch-top-33.png) no-repeat; height: 33px;}
+.dei-top {background: url(dei-top-33.png) no-repeat; height: 33px;}
+.cols a {width: 200px; display:block; float: left; height: 400px;}
+a.ww {background: url(ww-367.png) no-repeat;}
+a.sch {background: url(sch-367.png) no-repeat;}
+a.dei {background: url(dei-367.png) no-repeat;}
+a:hover.ww {background: url(ww-hover.png) no-repeat;}
+a:hover.sch {background: url(sch-hover.png) no-repeat;}
+a:hover.dei {background: url(dei-hover.png) no-repeat;}
+#bg-bot-50 {
+	position: relative;
+	background: url(bg-bot-50.jpg) no-repeat;
+	width: 723px;
+	height: 50px;
+	padding: 0 0 0 51px;
+}
+.footer {margin: 0; display: block;}
+p {margin: 0; padding: 0; display: inline-block;}

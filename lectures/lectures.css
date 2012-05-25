@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Following are the presentation styles -- edit away!
+   Note that the 'body' font size may have to be changed if the resolution is
+    different than expected. */
+body {margin: 20px 0; text-align:center;}
+body,td,th { 
+	background: #333333; 
+	color: #ccc; 
+	font-size: .8125em;
+	font-family:Optima, Geneva, Arial, Helvetica, sans-serif;
+}
+#content {margin:0 5%; text-align:left;}
+a:link, :visited {
+	text-decoration: none;
+	color: #999999;
+}
+a:hover, a:focus {
+	color: #999999;
+	text-decoration:underline;
+}
+h1, h2, h3, h4 {
+	font-size: 1.3em; 
+	margin: 0; 
+	padding: 0; 
+	font-weight: inherit;
+}
+h2, h3, h4 {
+	margin: 1em 0;
+	letter-spacing: .1em;
+}
+ul, pre {margin: 0; line-height: 1em; font-size: 1em;}
+.small p {font-size: 1em;}
+.emph {
+	color: #FFFF66;
+	font-weight: bold;
+}
+.copy {font: .8em;}
+ul {margin-right: 7%; margin-left: 25px; padding: 0; list-style: circle; line-height:1.4;}
+li {margin-top: 0.75em; margin-right: 0;}
+li li {margin-left: .5em;}
+ul ul li {margin: .2em; list-style: disc;}
+
+img {border: 2px solid #CCCCCC;
+}
+
+
+div#header, div#footer, div.slide {width: 100%; top: 0; left: 0;}
+div#header {top: 0; height: 1em;}
+div#footer {top: 0; right:0; margin-left: 900px; width:120px;}
+div.slide {top: 0; width: 850px; padding: 2% 2%; float:left;}
+div#footer {
+	background: transparent; 
+	color: #ffffcc;
+}
+div#header {
+	line-height: 1px;
+}
+div#footer {
+	font-size: .9em; 
+	font-weight: bold; 
+	padding: .5em 0;
+}
+#footer h1, #footer h2 {display: block; padding: 0 1em; line-height:1.4em;}
+#footer ul {list-style:none; margin: .5em .5em;}
+div.long {font-size: 0.75em;}
+.column {float:left;}
+.column.left, .column.right {width: 20%; padding: 1em;}
+.column.middle {width: 50%;}

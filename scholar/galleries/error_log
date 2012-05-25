@@ -1,0 +1,2 @@
+[24-Aug-2010 15:42:30] PHP Warning:  include(../includes/header.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/mgwynm/public_html/scholarship/galleries/index.php on line 13
+[24-Aug-2010 15:42:30] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../includes/header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mgwynm/public_html/scholarship/galleries/index.php on line 13

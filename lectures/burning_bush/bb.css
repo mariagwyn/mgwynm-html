@@ -1,0 +1,84 @@
+/* Following are the presentation styles -- edit away!
+   Note that the 'body' font size may have to be changed if the resolution is
+    different than expected. */
+body,td,th { 
+	background: #333300; 
+	color: #ffffcc; 
+	font-size: .8125em;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+a:link, :visited {
+	text-decoration: none;
+	color: #999999;
+}
+a:hover, a:focus {
+	color: #999999;
+	text-decoration:underline;
+}
+h1, h2, h3, h4 {
+	font-size: 100%; 
+	margin: 0; 
+	padding: 0; 
+	font-weight: inherit;
+}
+h2, h3, h4 {
+	margin: 1em 0;
+	font-family:Georgia, "Times New Roman", Times, serif; 
+	letter-spacing: .1em;
+}
+ul, pre {margin: 0; line-height: 1em; font-size: 1em;}
+html, body {margin: 0; padding: 0;}
+p {font-size:1.3em;}
+.small p {font-size: 1em;}
+.emph {
+	color: #FFFF66;
+	font-weight: bold;
+}
+ul {margin-right: 7%; margin-left: 25px; padding: 0; list-style: circle; line-height:1.4;}
+li {margin-top: 0.75em; margin-right: 0;}
+li li {margin-left: .5em;}
+ul ul li {margin: .2em; list-style: disc;}
+div#header, div#footer, div.slide {width: 100%; top: 0; left: 0;}
+div#header {top: 0; height: 1em;}
+div#footer {top: 0; right:0; margin-left: 900px; width:120px;}
+div.slide {top: 0; width: 850px; padding: 2% 2%; float:left;}
+div#footer {
+	background: transparent; 
+	color: #ffffcc;
+}
+div#header {
+	line-height: 1px;
+}
+div#footer {
+	font-size: .9em; 
+	font-weight: bold; 
+	padding: .5em 0;
+}
+#footer h1, #footer h2 {display: block; padding: 0 1em; line-height:1.4em;}
+#footer ul {list-style:none; margin: .5em .5em;}
+div.long {font-size: 0.75em;}
+.ftr-left {
+	width:45px;
+	float:left;
+}
+.ftr-right {
+	width:45px;
+	float:left;
+}
+.slide img {border: 1px solid #993;}
+.slide h1 {
+	margin: 0; 
+	padding: 10px 0 0 0px; 
+	white-space: nowrap;
+	text-transform: capitalize;
+	top: 20px; 
+	left: 60px; 
+	font:bold 180%/1em georgia, times, 'Times New Roman', serif;
+	background: transparent;
+}
+.slide h3, .slide h2 {font-size: 1.5em; font-weight:bold}
+.slide img.left {float:left; margin:0 1em 0 0; }
+.slide img.right {float:right; margin:0 1em;}
+.slide img.center {clear:both; margin: 0 10%;}
+.slide img.clear {clear:both; margin:1.4em 0;}
+.slide img.middle {vertical-align:middle; margin:1em 1em;}

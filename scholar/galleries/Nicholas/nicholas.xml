@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery
+	
+	galleryStyle="MODERN"
+	title="St. Nicholas"
+	textColor="FFFFFF"
+	frameColor="ffffff"
+	frameWidth="10"
+	thumbPosition="LEFT"
+	thumbColumns="3"
+	thumbRows="4"
+	showOpenButton="TRUE"
+	showFullscreenButton="TRUE"	
+	maxImageWidth="640"
+	maxImageHeight="640"
+	useFlickr="false"
+	flickrUserName=""
+	flickrTags=""
+	languageCode="AUTO"
+	languageList=""		
+	imagePath="images/"
+	thumbPath="thumbs/"
+>
+<image imageURL="images/Nicholas-life.png" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>The Life of Nicholas, Novgorod.</caption>	
+</image>
+<image imageURL="images/Nicholas-life-Emperor.jpg" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>Nicholas appears to the Emperor Constantine in a dream and admonishes him to orthodoxy at the Council of Nicea in 325</caption>	
+</image>
+<image imageURL="images/Nicholas-life-threemen.jpg" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>Nicholas consoles three men in prison</caption>	
+</image>
+<image imageURL="images/Nicholas-life-threewomen.jpg" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>Nicholas saves three poor girls from prostitution by throwing money for their wedding into their chambers</caption>	
+</image>
+<image imageURL="images/Nicholas-life-boy-w-demon.jpg" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>Nicholas exorcises a demon from an Assyrian boy</caption>	
+</image>
+<image imageURL="images/Nicholas-det-sin-XC.jpg" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>Nicholas receiving from Christ the Gospel</caption>	
+</image>
+<image imageURL="images/Nicholas-det-sin-MT.jpg" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>Nicholas receiving from the Theotokos his Omophorion, the sign of his priesthood</caption>	
+</image>
+</simpleviewergallery>

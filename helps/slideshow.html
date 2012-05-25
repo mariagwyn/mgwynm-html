@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p>Create a Slideshow:</p>
+<p>If you have a set of related images that you would like to display as a slideshow, you may select them using the image assist function. </p>
+<ol>
+  <li>Click the image assist icon under the text box;</li>
+  <li>Select the image you would like to insert. Fill in Title and Caption if you would like to add information.</li>
+  <li>Click &quot;Insert&quot;</li>
+  <li>You will see something like this:<br />
+  <code>[img_assist|nid=22|title=Image One|desc=Image Description|link=node|align=left|width=100|height=75]</code><br />
+  This is the image filter which will automatically insert the image.</li>
+  <li>To include more images in the slideshow, repeat steps 1 thru 4. You will see a list something like this:<br />
+      <code>[img_assist|nid=22|title=Image One|desc=Image Description|link=node|align=left|width=100|height=75]<br />
+        [img_assist|nid=23|title=Image Two|desc=Image Description|link=node|align=left|width=100|height=75]<br />
+        [img_assist|nid=24|title=Image Three|desc=Image Description|link=node|align=left|width=100|height=75]</code><br />
+  This will display three images in a row. When any image is clicked, a slideshow will automatically begin.</li>
+  <li>If you would like only ONE image visible even though the slideshow contains multiple images. To do this, you must add the following to the &quot;align=&quot; element. It should look like this:<br />
+    <code>[img_assist|nid=22|title=Image Title|desc=Image Description|link=node|align=left lightbox_hide_image|width=100|height=75]</code></li>
+  <li>Do this to ALL IMAGES that you want included in the slideshow, but not visible on the page. The image without this tag will serve as the trigger. So, a complete slideshow will look like this:<br />
+      <code>[img_assist|nid=22|title=Image One|desc=Image Description|link=node|align=left|width=100|height=75]<br />
+        [img_assist|nid=23|title=Image Two|desc=Image Description|link=node|align=left ightbox_hide_image|width=100|height=75]<br />
+        [img_assist|nid=24|title=Image Three|desc=Image Description|link=node|align=left ightbox_hide_image|width=100|height=75]</code><br />
+  </li>
+</ol>
+</body>
+</html>

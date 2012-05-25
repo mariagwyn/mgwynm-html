@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<simpleviewergallery
+	
+	galleryStyle="MODERN"
+	title="The Theotokos"
+	textColor="FFFFFF"
+	frameColor="ffffff"
+	frameWidth="10"
+	thumbPosition="LEFT"
+	thumbColumns="3"
+	thumbRows="4"
+	showOpenButton="TRUE"
+	showFullscreenButton="TRUE"	
+	maxImageWidth="640"
+	maxImageHeight="640"
+	useFlickr="false"
+	flickrUserName=""
+	flickrTags=""
+	languageCode="AUTO"
+	languageList=""		
+	imagePath="images/"
+	thumbPath="thumbs/"
+>
+<image imageURL="images/Eleousa-15thVirgYaroslavl.jpg" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>Eleousa</caption>	
+</image>
+<image imageURL="images/Eleousa-Vladimir-12th.jpg" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption><![CDATA[<b>Our Lady of Vladimir</b><br>45 x 27 in/113.6 x 68 cm<br>Egg Tempera on Wood Panel<br>12th Century Byzantine<br>State Tretyakov Gallery - Moscow]]></caption>	
+</image>
+<image imageURL="images/Enthroned-HagSoph9thMos.jpg" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>Caption 3</caption>	
+</image>
+<image imageURL="images/Enthroned-HS-Emp-72.jpg" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>Caption 4</caption>	
+</image>
+<image imageURL="images/Enthroned-Sold-Sinai6th.png" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>Caption 5</caption>	
+</image>
+<image imageURL="images/Hodegetria-TichvineMother_17thRus.jpg" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>Caption 6</caption>	
+</image>
+<image imageURL="images/Hodegetria_14thRhodes.png" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>Caption 7</caption>	
+</image>
+<image imageURL="images/our-lady-sign.jpg" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>Caption 8</caption>	
+</image>
+<image imageURL="images/Panagia-Kiev800.jpg" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption><![CDATA[<b>Yaroslavl Virgin Orans, the "Great Panagia"</b><br>76 x 47 in   193 x 120 cm<br>Egg Tempera on Wood Panel<br>12th-13th Century Byzantine<br>Originally from Kiev<br>State Tretyakov Gallery - Moscow]]></caption>	
+</image>
+<image imageURL="images/Sign-Theotokos-NS-96.jpg" thumbURL="thumbs/wide.jpg" linkURL="" linkTarget="" >
+	<caption>Caption 10</caption>	
+</image>
+
+
+</simpleviewergallery>
