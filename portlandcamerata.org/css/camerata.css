@@ -15,7 +15,7 @@ li {line-height: 1.2em;}
 blockquote, pre {padding: 0.25em 40px;}
 blockquote {font: italic 1.05em "Garamond", Georgia, Times, serif;
   margin: 0.25em 0;}
-#page {float:left; width: 470px; position: relative; padding: 126px 0 1em 130px; background: #902828 url(../images/scroll.jpg) no-repeat;}
+#page {width: 37em; position: relative; padding: 126px 0 1em 130px; background: #902828 url(../images/scroll.jpg) no-repeat; margin: 5em auto;}
 #header {position:relative; background: yellow;}
 a#logo {float:left; background:url(../images/logo.jpg) no-repeat; display:block; height: 100px; width: 440px;}
 #loc {float:right;}

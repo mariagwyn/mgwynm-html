@@ -28,19 +28,17 @@
 <div id="container">
 <!-- begin content -->
   <div id="content" class="event">
-    <h2>&quot;To Sing, To Praise, To Dance&quot;</h2>
-    <h3>Magnificats by P&auml;rt and Purcell<br />Choral settings of Dance Rhythms from the Renaissance and Latin America</h3>
-    <p align="center">This concert brings music to soothe the soul and get your feet tapping to rhythms from the Renaissance and Latin America. Performed by mixed chorus, recorders and drum.</p>
-    <p align="center">Friday, April 12th, 2013<br />
-      7:30 p.m.<br />
-    <a href="http://fccpdx.com/" target="_blank">First Christian Church</a><br />
-    <a href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1314+SW+Park+Avenue+%C2%B7+Portland,+Oregon+97201&sll=37.0625,-95.677068&sspn=45.014453,78.75&ie=UTF8&hq=&hnear=1314+SW+Park+Ave,+Portland,+Multnomah,+Oregon+97201&t=h&z=16" target="_blank">1314 SW Park at Columbia Ave.</a><br />
+    <h2>&quot;Essential Elements&quot;</h2> 
+    <h3>Renaissance Songs of Fire, Water, Air, Earth and Love</h3>
+    <p align="center">Saturday, April 28th, at 7:30 PM<br />
+    <a href="http://theoldchurch.org/" target="_blank">The Old Church</a><br />
+    <a href="http://maps.google.com/maps?q=1422+sw+11th+ave+at+clay+street+portland&hl=en&hnear=1422+SW+11th+Ave,+Portland,+Multnomah,+Oregon+97201&gl=us&sqi=2&t=m&z=16" target="_blank">1422 SW 11th Ave. at Clay Street</a><br />
     Portland, Oregon</p>
     <p align="center">Adult Admission: $15<br/>
     <p align="center">Seniors and Students: $10</p>
     <p align="center">Director: Sue McDowell</p>
-<p align="center">Jess Gibson, Nathalie Euwer Croft, Bev Cook, Joan Glassel, Judy Crockett, Joel Hess, Scott Corbett, Ben Neubauer, Tom Hard, and Ernie Gekas</p>
-<p align="center">(download <a href="flyers/Camerata_ April_12_2013.pdf">flyer</a>)</p>
+<p align="center">Bev Cook, Nathalie Euwer Croft, Jess Gibson<br/>Barbara Brown, Joan Glassel, Judy Crockett<br/>Scott Corbett, Joel Hess<br/>Benjamin Sunderland, Tom Hard, Jerry Gilkerson</p>
+    <p align="center">(download <a href="flyers/Camerata-Concert_April28.pdf">flyer</a>)</p>
   </div> <!-- end content -->
 </div> <!-- end container -->
 <div id="footer">
